@@ -1,0 +1,3 @@
+Heuristics for the two puzzles:
+- Black and White Tiles: add the indexes of all black tiles and all white tiles together, and substract black from white since it approaches 0 the closer we get towards the goal.
+- Werewolves and Vampires: # of creatures on east side of the river is 1, as they go left side the value decreases.
